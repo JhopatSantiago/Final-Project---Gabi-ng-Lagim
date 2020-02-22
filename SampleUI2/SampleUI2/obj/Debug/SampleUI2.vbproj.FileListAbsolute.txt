@@ -1,0 +1,11 @@
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\bin\Debug\SampleUI2.exe.config
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\bin\Debug\SampleUI2.exe
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\bin\Debug\SampleUI2.pdb
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\bin\Debug\SampleUI2.xml
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\obj\Debug\SampleUI2.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\obj\Debug\SampleUI2.Form1.resources
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\obj\Debug\SampleUI2.Resources.resources
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\obj\Debug\SampleUI2.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\obj\Debug\SampleUI2.exe
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\obj\Debug\SampleUI2.xml
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\SampleUI2\SampleUI2\obj\Debug\SampleUI2.pdb
