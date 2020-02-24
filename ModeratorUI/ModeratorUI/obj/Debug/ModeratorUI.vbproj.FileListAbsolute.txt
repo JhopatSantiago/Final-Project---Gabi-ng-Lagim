@@ -1,0 +1,11 @@
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\bin\Debug\ModeratorUI.exe.config
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\bin\Debug\ModeratorUI.exe
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\bin\Debug\ModeratorUI.pdb
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\bin\Debug\ModeratorUI.xml
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\obj\Debug\ModeratorUI.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\obj\Debug\ModeratorUI.ModUI.resources
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\obj\Debug\ModeratorUI.Resources.resources
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\obj\Debug\ModeratorUI.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\obj\Debug\ModeratorUI.exe
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\obj\Debug\ModeratorUI.xml
+C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\ModeratorUI\ModeratorUI\obj\Debug\ModeratorUI.pdb
