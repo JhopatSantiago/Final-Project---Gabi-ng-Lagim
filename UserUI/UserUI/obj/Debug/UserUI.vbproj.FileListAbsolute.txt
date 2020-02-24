@@ -1,1 +1,12 @@
 C:\Users\user\Documents\COLLEGE\Acads (5th yr)\electives3\GabiNgLagim_Project\UserUI\UserUI\bin\Debug\UserUI.exe.config
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\bin\Debug\UserUI.exe.config
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\bin\Debug\UserUI.exe
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\bin\Debug\UserUI.pdb
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\bin\Debug\UserUI.xml
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\Debug\UserUI.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\Debug\UserUI.Form1.resources
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\Debug\UserUI.Resources.resources
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\Debug\UserUI.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\Debug\UserUI.exe
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\Debug\UserUI.xml
+C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\Debug\UserUI.pdb
