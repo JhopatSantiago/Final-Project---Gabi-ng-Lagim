@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,13 +20,12 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Role = New System.Windows.Forms.Label()
-        Me.RoleDesc = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.LynchP1 = New System.Windows.Forms.Button()
         Me.LynchP2 = New System.Windows.Forms.Button()
@@ -35,11 +34,17 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.TimeLabelBox = New System.Windows.Forms.TextBox()
-        Me.TimerStart = New System.Windows.Forms.Button()
         Me.KillP4 = New System.Windows.Forms.Button()
         Me.KillP3 = New System.Windows.Forms.Button()
         Me.KillP2 = New System.Windows.Forms.Button()
         Me.KillP1 = New System.Windows.Forms.Button()
+        Me.RoleDesc = New System.Windows.Forms.Label()
+        Me.Connect = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -63,19 +68,6 @@ Partial Class Form1
         Me.Role.Size = New System.Drawing.Size(159, 25)
         Me.Role.TabIndex = 2
         Me.Role.Text = "Mananggal"
-        '
-        'RoleDesc
-        '
-        Me.RoleDesc.BackColor = System.Drawing.Color.Black
-        Me.RoleDesc.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.RoleDesc.Font = New System.Drawing.Font("Gill Sans MT", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RoleDesc.ForeColor = System.Drawing.Color.White
-        Me.RoleDesc.Location = New System.Drawing.Point(21, 229)
-        Me.RoleDesc.Multiline = True
-        Me.RoleDesc.Name = "RoleDesc"
-        Me.RoleDesc.Size = New System.Drawing.Size(593, 58)
-        Me.RoleDesc.TabIndex = 3
-        Me.RoleDesc.Text = "Ang manananggal"
         '
         'Label1
         '
@@ -147,23 +139,12 @@ Partial Class Form1
         'TimeLabelBox
         '
         Me.TimeLabelBox.Font = New System.Drawing.Font("Gill Sans MT", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimeLabelBox.Location = New System.Drawing.Point(497, 45)
+        Me.TimeLabelBox.Location = New System.Drawing.Point(520, 32)
         Me.TimeLabelBox.Name = "TimeLabelBox"
         Me.TimeLabelBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TimeLabelBox.Size = New System.Drawing.Size(100, 23)
         Me.TimeLabelBox.TabIndex = 27
         Me.TimeLabelBox.Text = "0"
-        '
-        'TimerStart
-        '
-        Me.TimerStart.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimerStart.ForeColor = System.Drawing.Color.Black
-        Me.TimerStart.Location = New System.Drawing.Point(494, 126)
-        Me.TimerStart.Name = "TimerStart"
-        Me.TimerStart.Size = New System.Drawing.Size(107, 26)
-        Me.TimerStart.TabIndex = 28
-        Me.TimerStart.Text = "Start"
-        Me.TimerStart.UseVisualStyleBackColor = True
         '
         'KillP4
         '
@@ -209,13 +190,82 @@ Partial Class Form1
         Me.KillP1.Text = "Player 1"
         Me.KillP1.UseVisualStyleBackColor = True
         '
+        'RoleDesc
+        '
+        Me.RoleDesc.AutoSize = True
+        Me.RoleDesc.Font = New System.Drawing.Font("Gill Sans MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RoleDesc.ForeColor = System.Drawing.Color.White
+        Me.RoleDesc.Location = New System.Drawing.Point(28, 236)
+        Me.RoleDesc.Name = "RoleDesc"
+        Me.RoleDesc.Size = New System.Drawing.Size(153, 23)
+        Me.RoleDesc.TabIndex = 29
+        Me.RoleDesc.Text = "Ang mga Manananggal"
+        '
+        'Connect
+        '
+        Me.Connect.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Connect.ForeColor = System.Drawing.Color.Black
+        Me.Connect.Location = New System.Drawing.Point(12, 83)
+        Me.Connect.Name = "Connect"
+        Me.Connect.Size = New System.Drawing.Size(169, 26)
+        Me.Connect.TabIndex = 30
+        Me.Connect.Text = "Connect"
+        Me.Connect.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(81, 21)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 33
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(81, 48)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.TabIndex = 34
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(12, 115)
+        Me.TextBox3.Multiline = True
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(169, 96)
+        Me.TextBox3.TabIndex = 35
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(451, 72)
+        Me.TextBox4.Multiline = True
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(169, 37)
+        Me.TextBox4.TabIndex = 36
+        '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.Black
+        Me.Button2.Location = New System.Drawing.Point(460, 135)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(169, 26)
+        Me.Button2.TabIndex = 37
+        Me.Button2.Text = "Send"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(641, 401)
-        Me.Controls.Add(Me.TimerStart)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Connect)
+        Me.Controls.Add(Me.RoleDesc)
         Me.Controls.Add(Me.TimeLabelBox)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.LynchP4)
@@ -227,7 +277,6 @@ Partial Class Form1
         Me.Controls.Add(Me.KillP2)
         Me.Controls.Add(Me.KillP1)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.RoleDesc)
         Me.Controls.Add(Me.Role)
         Me.Controls.Add(Me.PictureBox1)
         Me.ForeColor = System.Drawing.Color.White
@@ -242,7 +291,6 @@ Partial Class Form1
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Role As Label
-    Friend WithEvents RoleDesc As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents LynchP1 As Button
     Friend WithEvents LynchP2 As Button
@@ -251,9 +299,15 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents TimeLabelBox As TextBox
-    Friend WithEvents TimerStart As Button
     Friend WithEvents KillP4 As Button
     Friend WithEvents KillP3 As Button
     Friend WithEvents KillP2 As Button
     Friend WithEvents KillP1 As Button
+    Friend WithEvents RoleDesc As Label
+    Friend WithEvents Connect As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Button2 As Button
 End Class

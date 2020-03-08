@@ -34,9 +34,13 @@ Partial Class Form1
         Me.Player2Box = New System.Windows.Forms.ComboBox()
         Me.Player3Box = New System.Windows.Forms.ComboBox()
         Me.Player4Box = New System.Windows.Forms.ComboBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.TimeBox = New System.Windows.Forms.ComboBox()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Ipatupad = New System.Windows.Forms.Button()
+        Me.RM1 = New System.Windows.Forms.Button()
+        Me.RM2 = New System.Windows.Forms.Button()
+        Me.RM3 = New System.Windows.Forms.Button()
+        Me.RM4 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -44,9 +48,9 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(29, 1)
+        Me.PictureBox1.Location = New System.Drawing.Point(178, 8)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(539, 205)
+        Me.PictureBox1.Size = New System.Drawing.Size(276, 96)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -87,7 +91,7 @@ Partial Class Form1
         Me.Player1Box.Items.AddRange(New Object() {"Manananggal", "Pulis", "Manghuhula", "Magbubukid"})
         Me.Player1Box.Location = New System.Drawing.Point(178, 252)
         Me.Player1Box.Name = "Player1Box"
-        Me.Player1Box.Size = New System.Drawing.Size(367, 26)
+        Me.Player1Box.Size = New System.Drawing.Size(276, 26)
         Me.Player1Box.TabIndex = 7
         '
         'Label4
@@ -133,7 +137,7 @@ Partial Class Form1
         Me.Player2Box.Items.AddRange(New Object() {"Manananggal", "Pulis", "Manghuhula", "Magbubukid"})
         Me.Player2Box.Location = New System.Drawing.Point(178, 292)
         Me.Player2Box.Name = "Player2Box"
-        Me.Player2Box.Size = New System.Drawing.Size(367, 26)
+        Me.Player2Box.Size = New System.Drawing.Size(276, 26)
         Me.Player2Box.TabIndex = 11
         '
         'Player3Box
@@ -143,7 +147,7 @@ Partial Class Form1
         Me.Player3Box.Items.AddRange(New Object() {"Manananggal", "Pulis", "Manghuhula", "Magbubukid"})
         Me.Player3Box.Location = New System.Drawing.Point(178, 333)
         Me.Player3Box.Name = "Player3Box"
-        Me.Player3Box.Size = New System.Drawing.Size(367, 26)
+        Me.Player3Box.Size = New System.Drawing.Size(276, 26)
         Me.Player3Box.TabIndex = 12
         '
         'Player4Box
@@ -153,51 +157,86 @@ Partial Class Form1
         Me.Player4Box.Items.AddRange(New Object() {"Manananggal", "Pulis", "Manghuhula", "Magbubukid"})
         Me.Player4Box.Location = New System.Drawing.Point(178, 377)
         Me.Player4Box.Name = "Player4Box"
-        Me.Player4Box.Size = New System.Drawing.Size(367, 26)
+        Me.Player4Box.Size = New System.Drawing.Size(276, 26)
         Me.Player4Box.TabIndex = 13
         '
-        'Label7
+        'Ipatupad
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.Black
-        Me.Label7.Font = New System.Drawing.Font("Paintdrips", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(276, 220)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(87, 20)
-        Me.Label7.TabIndex = 14
-        Me.Label7.Text = "Oras : "
+        Me.Ipatupad.Font = New System.Drawing.Font("Paintdrips", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Ipatupad.Location = New System.Drawing.Point(461, 424)
+        Me.Ipatupad.Name = "Ipatupad"
+        Me.Ipatupad.Size = New System.Drawing.Size(107, 23)
+        Me.Ipatupad.TabIndex = 17
+        Me.Ipatupad.Text = "Ipatupad"
+        Me.Ipatupad.UseVisualStyleBackColor = True
         '
-        'TimeBox
+        'RM1
         '
-        Me.TimeBox.Font = New System.Drawing.Font("Gill Sans MT", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimeBox.FormattingEnabled = True
-        Me.TimeBox.Items.AddRange(New Object() {"60", "45", "30"})
-        Me.TimeBox.Location = New System.Drawing.Point(353, 214)
-        Me.TimeBox.Name = "TimeBox"
-        Me.TimeBox.Size = New System.Drawing.Size(101, 26)
-        Me.TimeBox.TabIndex = 15
+        Me.RM1.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RM1.ForeColor = System.Drawing.Color.Black
+        Me.RM1.Location = New System.Drawing.Point(464, 251)
+        Me.RM1.Name = "RM1"
+        Me.RM1.Size = New System.Drawing.Size(104, 26)
+        Me.RM1.TabIndex = 21
+        Me.RM1.Text = "Tanggalin"
+        Me.RM1.UseVisualStyleBackColor = True
         '
-        'Label8
+        'RM2
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.Black
-        Me.Label8.Font = New System.Drawing.Font("Paintdrips", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(460, 220)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(85, 20)
-        Me.Label8.TabIndex = 16
-        Me.Label8.Text = "Seconds"
+        Me.RM2.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RM2.ForeColor = System.Drawing.Color.Black
+        Me.RM2.Location = New System.Drawing.Point(461, 292)
+        Me.RM2.Name = "RM2"
+        Me.RM2.Size = New System.Drawing.Size(107, 26)
+        Me.RM2.TabIndex = 22
+        Me.RM2.Text = "Tanggalin"
+        Me.RM2.UseVisualStyleBackColor = True
+        '
+        'RM3
+        '
+        Me.RM3.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RM3.ForeColor = System.Drawing.Color.Black
+        Me.RM3.Location = New System.Drawing.Point(461, 333)
+        Me.RM3.Name = "RM3"
+        Me.RM3.Size = New System.Drawing.Size(107, 26)
+        Me.RM3.TabIndex = 23
+        Me.RM3.Text = "Tanggalin"
+        Me.RM3.UseVisualStyleBackColor = True
+        '
+        'RM4
+        '
+        Me.RM4.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RM4.ForeColor = System.Drawing.Color.Black
+        Me.RM4.Location = New System.Drawing.Point(460, 376)
+        Me.RM4.Name = "RM4"
+        Me.RM4.Size = New System.Drawing.Size(107, 26)
+        Me.RM4.TabIndex = 24
+        Me.RM4.Text = "Tanggalin"
+        Me.RM4.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(19, 112)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(560, 80)
+        Me.TextBox1.TabIndex = 26
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(19, 198)
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(560, 18)
+        Me.TextBox2.TabIndex = 27
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Paintdrips", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(461, 424)
+        Me.Button1.Location = New System.Drawing.Point(492, 222)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(107, 23)
-        Me.Button1.TabIndex = 17
-        Me.Button1.Text = "Ipatupad"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 28
+        Me.Button1.Text = "Send"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
@@ -205,11 +244,15 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(599, 459)
+        Me.ClientSize = New System.Drawing.Size(605, 459)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TimeBox)
-        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.RM4)
+        Me.Controls.Add(Me.RM3)
+        Me.Controls.Add(Me.RM2)
+        Me.Controls.Add(Me.RM1)
+        Me.Controls.Add(Me.Ipatupad)
         Me.Controls.Add(Me.Player4Box)
         Me.Controls.Add(Me.Player3Box)
         Me.Controls.Add(Me.Player2Box)
@@ -241,8 +284,12 @@ Partial Class Form1
     Friend WithEvents Player2Box As ComboBox
     Friend WithEvents Player3Box As ComboBox
     Friend WithEvents Player4Box As ComboBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents TimeBox As ComboBox
-    Friend WithEvents Label8 As Label
+    Friend WithEvents Ipatupad As Button
+    Friend WithEvents RM1 As Button
+    Friend WithEvents RM2 As Button
+    Friend WithEvents RM3 As Button
+    Friend WithEvents RM4 As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Button1 As Button
 End Class
