@@ -98,12 +98,11 @@ Public Class Form1
 
     Private Sub LynchP1_Click(sender As Object, e As EventArgs) Handles LynchP1.Click
         MessageBox.Show("Pinili mong matanggal si Player 1")
-
         Lynchx()
 
     End Sub
 
-    Public Sub Killx()
+    Public Sub DisabledButton()
         KillP1.Enabled = False
         KillP1.BackColor = Color.Gray
         KillP2.Enabled = False
@@ -126,7 +125,7 @@ Public Class Form1
     End Sub
 
     Public Sub Lynch()
-        Killx()
+        DisabledButton()
         LynchP1.Enabled = True
         LynchP2.Enabled = True
         LynchP3.Enabled = True

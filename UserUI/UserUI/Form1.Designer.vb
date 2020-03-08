@@ -45,13 +45,16 @@ Partial Class Form1
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(207, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(404, 13)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(235, 186)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -63,7 +66,7 @@ Partial Class Form1
         Me.Role.AutoSize = True
         Me.Role.Font = New System.Drawing.Font("Paintdrips", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Role.ForeColor = System.Drawing.Color.White
-        Me.Role.Location = New System.Drawing.Point(242, 201)
+        Me.Role.Location = New System.Drawing.Point(442, 212)
         Me.Role.Name = "Role"
         Me.Role.Size = New System.Drawing.Size(159, 25)
         Me.Role.TabIndex = 2
@@ -73,7 +76,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Paintdrips", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(28, 310)
+        Me.Label1.Location = New System.Drawing.Point(29, 298)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(90, 16)
         Me.Label1.TabIndex = 4
@@ -83,7 +86,7 @@ Partial Class Form1
         '
         Me.LynchP1.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LynchP1.ForeColor = System.Drawing.Color.Black
-        Me.LynchP1.Location = New System.Drawing.Point(123, 347)
+        Me.LynchP1.Location = New System.Drawing.Point(124, 335)
         Me.LynchP1.Name = "LynchP1"
         Me.LynchP1.Size = New System.Drawing.Size(107, 26)
         Me.LynchP1.TabIndex = 22
@@ -94,7 +97,7 @@ Partial Class Form1
         '
         Me.LynchP2.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LynchP2.ForeColor = System.Drawing.Color.Black
-        Me.LynchP2.Location = New System.Drawing.Point(247, 347)
+        Me.LynchP2.Location = New System.Drawing.Point(248, 335)
         Me.LynchP2.Name = "LynchP2"
         Me.LynchP2.Size = New System.Drawing.Size(107, 26)
         Me.LynchP2.TabIndex = 23
@@ -105,7 +108,7 @@ Partial Class Form1
         '
         Me.LynchP3.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LynchP3.ForeColor = System.Drawing.Color.Black
-        Me.LynchP3.Location = New System.Drawing.Point(372, 347)
+        Me.LynchP3.Location = New System.Drawing.Point(373, 335)
         Me.LynchP3.Name = "LynchP3"
         Me.LynchP3.Size = New System.Drawing.Size(107, 26)
         Me.LynchP3.TabIndex = 24
@@ -116,7 +119,7 @@ Partial Class Form1
         '
         Me.LynchP4.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LynchP4.ForeColor = System.Drawing.Color.Black
-        Me.LynchP4.Location = New System.Drawing.Point(494, 347)
+        Me.LynchP4.Location = New System.Drawing.Point(495, 335)
         Me.LynchP4.Name = "LynchP4"
         Me.LynchP4.Size = New System.Drawing.Size(107, 26)
         Me.LynchP4.TabIndex = 25
@@ -127,7 +130,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Paintdrips", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(46, 354)
+        Me.Label2.Location = New System.Drawing.Point(47, 342)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(72, 16)
         Me.Label2.TabIndex = 26
@@ -139,7 +142,7 @@ Partial Class Form1
         'TimeLabelBox
         '
         Me.TimeLabelBox.Font = New System.Drawing.Font("Gill Sans MT", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimeLabelBox.Location = New System.Drawing.Point(520, 32)
+        Me.TimeLabelBox.Location = New System.Drawing.Point(298, 212)
         Me.TimeLabelBox.Name = "TimeLabelBox"
         Me.TimeLabelBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TimeLabelBox.Size = New System.Drawing.Size(100, 23)
@@ -150,7 +153,7 @@ Partial Class Form1
         '
         Me.KillP4.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.KillP4.ForeColor = System.Drawing.Color.Black
-        Me.KillP4.Location = New System.Drawing.Point(494, 304)
+        Me.KillP4.Location = New System.Drawing.Point(495, 292)
         Me.KillP4.Name = "KillP4"
         Me.KillP4.Size = New System.Drawing.Size(107, 26)
         Me.KillP4.TabIndex = 21
@@ -161,7 +164,7 @@ Partial Class Form1
         '
         Me.KillP3.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.KillP3.ForeColor = System.Drawing.Color.Black
-        Me.KillP3.Location = New System.Drawing.Point(372, 304)
+        Me.KillP3.Location = New System.Drawing.Point(373, 292)
         Me.KillP3.Name = "KillP3"
         Me.KillP3.Size = New System.Drawing.Size(107, 26)
         Me.KillP3.TabIndex = 20
@@ -172,7 +175,7 @@ Partial Class Form1
         '
         Me.KillP2.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.KillP2.ForeColor = System.Drawing.Color.Black
-        Me.KillP2.Location = New System.Drawing.Point(247, 304)
+        Me.KillP2.Location = New System.Drawing.Point(248, 292)
         Me.KillP2.Name = "KillP2"
         Me.KillP2.Size = New System.Drawing.Size(107, 26)
         Me.KillP2.TabIndex = 19
@@ -183,7 +186,7 @@ Partial Class Form1
         '
         Me.KillP1.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.KillP1.ForeColor = System.Drawing.Color.Black
-        Me.KillP1.Location = New System.Drawing.Point(123, 304)
+        Me.KillP1.Location = New System.Drawing.Point(124, 292)
         Me.KillP1.Name = "KillP1"
         Me.KillP1.Size = New System.Drawing.Size(107, 26)
         Me.KillP1.TabIndex = 18
@@ -228,37 +231,74 @@ Partial Class Form1
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(12, 115)
+        Me.TextBox3.Location = New System.Drawing.Point(187, 13)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(169, 96)
+        Me.TextBox3.Size = New System.Drawing.Size(211, 114)
         Me.TextBox3.TabIndex = 35
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(451, 72)
+        Me.TextBox4.Location = New System.Drawing.Point(12, 150)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(169, 37)
+        Me.TextBox4.Size = New System.Drawing.Size(386, 17)
         Me.TextBox4.TabIndex = 36
         '
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Gill Sans MT Condensed", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(460, 135)
+        Me.Button2.Location = New System.Drawing.Point(254, 173)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(169, 26)
+        Me.Button2.Size = New System.Drawing.Size(144, 26)
         Me.Button2.TabIndex = 37
         Me.Button2.Text = "Send"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Paintdrips", 10.0!)
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(9, 24)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(72, 17)
+        Me.Label3.TabIndex = 38
+        Me.Label3.Text = "Server:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Paintdrips", 10.0!)
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(9, 48)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(52, 17)
+        Me.Label4.TabIndex = 39
+        Me.Label4.Text = "Port:"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Black
+        Me.Label7.Font = New System.Drawing.Font("Paintdrips", 10.0!)
+        Me.Label7.ForeColor = System.Drawing.Color.White
+        Me.Label7.Location = New System.Drawing.Point(12, 130)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(243, 17)
+        Me.Label7.TabIndex = 40
+        Me.Label7.Text = "Write your message here!"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(641, 401)
+        Me.ClientSize = New System.Drawing.Size(653, 385)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox3)
@@ -310,4 +350,7 @@ Partial Class Form1
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label7 As Label
 End Class

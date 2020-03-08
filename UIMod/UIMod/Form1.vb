@@ -48,6 +48,39 @@ Public Class Form1
     Sub MessageReceived(ByVal str As String)
         UpdateList(str, True)
     End Sub
+
+    Private Sub Ipatupad_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Player4Box_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Player3Box_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Player2Box_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
     Sub ClientExited(ByVal client As ClassforClient)
         clientList.Remove(client)
         UpdateList("Client Exited!", True)
