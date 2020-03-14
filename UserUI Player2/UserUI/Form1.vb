@@ -68,24 +68,24 @@ Public Class Form1
     Public Sub Manananggal()
         RoleLabel.Text = "Mananggal"
         RoleDesc.Text = "Ang mananaggal ay umaatake sa gabi. Bawat gabi ay inaatake nya ang mga bahay na naisin nya."
-        PictureBox1.Image = Image.FromFile("C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\Pictures\Manananggal.png")
+        PictureBox1.Image = Image.FromFile("D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\Pictures\Manananggal.png")
     End Sub
     Public Sub Pulis()
         RoleLabel.Text = "Pulis"
         RoleDesc.Text = "Ang mga pulis"
-        PictureBox1.Image = Image.FromFile("C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\Pictures\Police.png")
+        PictureBox1.Image = Image.FromFile("D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\Pictures\Police.png")
     End Sub
 
     Public Sub Manghuhula()
         RoleLabel.Text = "Manghuhula"
         RoleDesc.Text = "Ang mga manghuhula"
-        PictureBox1.Image = Image.FromFile("C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\Pictures\Manghuhula.png")
+        PictureBox1.Image = Image.FromFile("D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\Pictures\Manghuhula.png")
     End Sub
 
     Public Sub Magbubukid()
         RoleLabel.Text = "Magbubukid"
         RoleDesc.Text = "Ang mga magbubukid"
-        PictureBox1.Image = Image.FromFile("C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\Pictures\Villager.png")
+        PictureBox1.Image = Image.FromFile("D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\Pictures\Villager.png")
     End Sub
 
     Private Sub TimerStart_Click(sender As Object, e As EventArgs)

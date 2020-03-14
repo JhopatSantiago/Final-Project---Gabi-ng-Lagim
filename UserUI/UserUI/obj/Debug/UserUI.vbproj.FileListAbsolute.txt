@@ -10,3 +10,14 @@ C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\D
 C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\Debug\UserUI.exe
 C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\Debug\UserUI.xml
 C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\UserUI\UserUI\obj\Debug\UserUI.pdb
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\bin\Debug\UserUI.exe.config
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\bin\Debug\UserUI.exe
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\bin\Debug\UserUI.pdb
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\bin\Debug\UserUI.xml
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\obj\Debug\UserUI.vbprojResolveAssemblyReference.cache
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\obj\Debug\UserUI.Form1.resources
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\obj\Debug\UserUI.Resources.resources
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\obj\Debug\UserUI.vbproj.GenerateResource.Cache
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\obj\Debug\UserUI.exe
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\obj\Debug\UserUI.xml
+D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\UserUI\UserUI\obj\Debug\UserUI.pdb
