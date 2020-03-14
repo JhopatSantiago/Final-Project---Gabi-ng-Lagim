@@ -6,6 +6,7 @@ Public Class ClassforClient
     Public Event clientLogout(ByVal client As ClassforClient)
     Private sendMessage As StreamWriter
     Private listClient As TcpClient
+    Private sendRoles As StreamWriter
     Sub New(ByVal forClient As TcpClient)
         listClient = forClient
         listClient.GetStream.BeginRead(New Byte() {0}, 0, 0, AddressOf ReadAllClient, Nothing)
@@ -23,4 +24,5 @@ Public Class ClassforClient
         sendMessage.WriteLine(Messsage)
         sendMessage.Flush()
     End Sub
+
 End Class

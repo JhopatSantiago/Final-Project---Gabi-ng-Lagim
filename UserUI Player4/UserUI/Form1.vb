@@ -5,7 +5,7 @@ Public Class Form1
     Dim time = 15
     Dim client As TcpClient
     Dim sWriter As StreamWriter
-    Dim NIckFrefix As String = "Player 1"
+    Dim NIckFrefix As String = "Player 4"
 
     Sub xLoad() Handles Me.Load
         Me.Text &= " " & NIckFrefix
@@ -15,7 +15,7 @@ Public Class Form1
         If InvokeRequired Then
             Invoke(New _xUpdate(AddressOf xUpdate), str)
         Else
-            Dim PlayerRole = str(0)
+            Dim PlayerRole = str(3)
 
             If PlayerRole = "0" Then
                 Manananggal()
@@ -65,7 +65,6 @@ Public Class Form1
         End If
     End Sub
 
-
     Public Sub Manananggal()
         RoleLabel.Text = "Mananggal"
         RoleDesc.Text = "Ang mananaggal ay umaatake sa gabi. Bawat gabi ay inaatake nya ang mga bahay na naisin nya."
@@ -88,11 +87,6 @@ Public Class Form1
         RoleDesc.Text = "Ang mga magbubukid"
         PictureBox1.Image = Image.FromFile("C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\Pictures\Villager.png")
     End Sub
-
-
-
-
-
 
     Private Sub TimerStart_Click(sender As Object, e As EventArgs)
         Timer1.Enabled = True

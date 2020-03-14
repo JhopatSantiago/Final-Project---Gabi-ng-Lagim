@@ -50,7 +50,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(236, 20)
+        Me.PictureBox1.Location = New System.Drawing.Point(221, 20)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(235, 186)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -62,7 +62,7 @@ Partial Class Form1
         Me.RoleLabel.AutoSize = True
         Me.RoleLabel.Font = New System.Drawing.Font("Paintdrips", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoleLabel.ForeColor = System.Drawing.Color.White
-        Me.RoleLabel.Location = New System.Drawing.Point(273, 209)
+        Me.RoleLabel.Location = New System.Drawing.Point(260, 209)
         Me.RoleLabel.Name = "RoleLabel"
         Me.RoleLabel.Size = New System.Drawing.Size(159, 25)
         Me.RoleLabel.TabIndex = 2
@@ -138,7 +138,7 @@ Partial Class Form1
         'TimeLabelBox
         '
         Me.TimeLabelBox.Font = New System.Drawing.Font("Gill Sans MT", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimeLabelBox.Location = New System.Drawing.Point(526, 42)
+        Me.TimeLabelBox.Location = New System.Drawing.Point(524, 24)
         Me.TimeLabelBox.Name = "TimeLabelBox"
         Me.TimeLabelBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TimeLabelBox.Size = New System.Drawing.Size(100, 23)
@@ -275,7 +275,7 @@ Partial Class Form1
         Me.ForeColor = System.Drawing.Color.White
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Player 1"
+        Me.Text = "Player 3"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

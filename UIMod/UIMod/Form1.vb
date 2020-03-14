@@ -3,12 +3,12 @@ Imports System.Net
 Imports System.Net.Sockets
 
 Public Class Form1
-    Dim P1Role, P2Role, P3Role, P4Role, Time As String
     Dim Listning As TcpListener
     Dim Allclient As TcpClient
     Dim clientList As New List(Of ClassforClient)
     Dim pReader As StreamReader
     Dim pClient As ClassforClient
+    Dim PlayerRole As String
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Listning = New TcpListener(IPAddress.Any, 3123)
@@ -28,6 +28,10 @@ Public Class Form1
             If relay Then send(str)
         End If
     End Sub
+
+    Delegate Sub _Roles(ByVal PlayerRole As String, ByVal relay As Boolean)
+
+
     Sub send(ByVal str As String)
         For x As Integer = 0 To clientList.Count - 1
             Try
@@ -49,38 +53,6 @@ Public Class Form1
         UpdateList(str, True)
     End Sub
 
-    Private Sub Ipatupad_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Player4Box_SelectedIndexChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Player3Box_SelectedIndexChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Player2Box_SelectedIndexChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label6_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label5_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label4_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Sub ClientExited(ByVal client As ClassforClient)
         clientList.Remove(client)
         UpdateList("Client Exited!", True)
@@ -98,13 +70,11 @@ Public Class Form1
         TextBox2.Clear()
     End Sub
 
-
-    Public Sub Roles()
-        P1Role = Player1Box.Text
-        P2Role = Player2Box.Text
-        P3Role = Player3Box.Text
-        P4Role = Player4Box.Text
+    Private Sub Ipatupad_Click(sender As Object, e As EventArgs) Handles Ipatupad.Click
+        send(Player1Box.SelectedIndex & Player2Box.SelectedIndex & Player3Box.SelectedIndex & Player4Box.SelectedIndex)
+        Ipatupad.Enabled = False
     End Sub
+
 
 
 End Class
