@@ -72,7 +72,7 @@ Public Class Form1
 
     Private Sub Ipatupad_Click(sender As Object, e As EventArgs) Handles Ipatupad.Click
         send(Player1Box.SelectedIndex & Player2Box.SelectedIndex & Player3Box.SelectedIndex & Player4Box.SelectedIndex)
-        Ipatupad.Enabled = False
+        Ipatupad.Enabled = True
     End Sub
 
 

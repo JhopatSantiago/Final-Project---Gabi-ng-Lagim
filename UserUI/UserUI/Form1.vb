@@ -2,6 +2,7 @@
 Imports System.Net.Sockets
 
 Public Class Form1
+    Private Const V As Integer = 10
     Dim time = 15
     Dim client As TcpClient
     Dim sWriter As StreamWriter
@@ -15,7 +16,7 @@ Public Class Form1
         If InvokeRequired Then
             Invoke(New _xUpdate(AddressOf xUpdate), str)
         Else
-            Dim PlayerRole = str(0)
+            Dim PlayerRole = str(3)
 
             If PlayerRole = "0" Then
                 Manananggal()
@@ -50,6 +51,14 @@ Public Class Form1
         End Try
     End Sub
     Private Sub Connect_Click(sender As Object, e As EventArgs) Handles Connect.Click
+        If Timer1.Enabled = True Then
+            Timer1.Start()
+
+        Else
+            Label1.Text = 20
+            Timer1.Start()
+        End If
+
         If Connect.Text = "Connect" Then
             Try
                 client = New TcpClient(TextBox1.Text, CInt(TextBox2.Text))
@@ -63,52 +72,59 @@ Public Class Form1
             client = Nothing
             Connect.Text = "Connect"
         End If
+
     End Sub
 
-
     Public Sub Manananggal()
-        RoleLabel.Text = "Mananggal"
+        RoleLabel.Text = "Manananggal"
         RoleDesc.Text = "Ang mananaggal ay umaatake sa gabi. Bawat gabi ay inaatake nya ang mga bahay na naisin nya."
-        PictureBox1.Image = Image.FromFile("D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\Pictures\Manananggal.png")
+        PictureBox1.Image = Image.FromFile("C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\Pictures\Manananggal.png")
     End Sub
     Public Sub Pulis()
         RoleLabel.Text = "Pulis"
         RoleDesc.Text = "Ang mga pulis"
-        PictureBox1.Image = Image.FromFile("D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\Pictures\Police.png")
+        PictureBox1.Image = Image.FromFile("C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\Pictures\Police.png")
     End Sub
 
     Public Sub Manghuhula()
         RoleLabel.Text = "Manghuhula"
         RoleDesc.Text = "Ang mga manghuhula"
-        PictureBox1.Image = Image.FromFile("D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\Pictures\Manghuhula.png")
+        PictureBox1.Image = Image.FromFile("C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\Pictures\Manghuhula.png")
     End Sub
 
     Public Sub Magbubukid()
         RoleLabel.Text = "Magbubukid"
         RoleDesc.Text = "Ang mga magbubukid"
-        PictureBox1.Image = Image.FromFile("D:\Documents\School Stuff\Fifth Year\2nd Sem\Final Project - Gabi ng Lagim\Pictures\Villager.png")
+        PictureBox1.Image = Image.FromFile("C:\Users\user\Documents\GitHub\Final-Project---Gabi-ng-Lagim\Pictures\Villager.png")
     End Sub
 
 
 
 
-
-
-    Private Sub TimerStart_Click(sender As Object, e As EventArgs)
-        Timer1.Enabled = True
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Timer1.Start()
         Timer1.Interval = 1000
-    End Sub
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        If time = 0 Then
-            Timer1.Stop()
+
+        If Label5.Text = 11 Then
+            Label5.ForeColor = Color.Red
+            Label5.Text = Val(Label5.Text) - 1
+
+        ElseIf Label5.Text = 0 Then
+            Me.Close()
         Else
-            time = time - 1
-            TimeLabelBox.Text = time
+            Label5.Text = Val(Label5.Text) - 1
+        End If
+
+        If Label5.Text = 1 Then
+            Label6.Text = "TIME'S UP!"
+        ElseIf Label5.Text >= 16 Then
+            Label6.Text = "segundong natitira"
+        Else Label6.Text = Label6.Text
         End If
     End Sub
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
 
-
+    End Sub
 End Class
 
 

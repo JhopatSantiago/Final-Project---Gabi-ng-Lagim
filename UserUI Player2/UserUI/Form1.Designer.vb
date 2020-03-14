@@ -33,7 +33,6 @@ Partial Class Form1
         Me.LynchP4 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.TimeLabelBox = New System.Windows.Forms.TextBox()
         Me.KillP4 = New System.Windows.Forms.Button()
         Me.KillP3 = New System.Windows.Forms.Button()
         Me.KillP2 = New System.Windows.Forms.Button()
@@ -44,6 +43,8 @@ Partial Class Form1
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -60,21 +61,21 @@ Partial Class Form1
         'RoleLabel
         '
         Me.RoleLabel.AutoSize = True
-        Me.RoleLabel.Font = New System.Drawing.Font("Paintdrips", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RoleLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RoleLabel.ForeColor = System.Drawing.Color.White
         Me.RoleLabel.Location = New System.Drawing.Point(260, 209)
         Me.RoleLabel.Name = "RoleLabel"
-        Me.RoleLabel.Size = New System.Drawing.Size(159, 25)
+        Me.RoleLabel.Size = New System.Drawing.Size(143, 25)
         Me.RoleLabel.TabIndex = 2
-        Me.RoleLabel.Text = "Mananggal"
+        Me.RoleLabel.Text = "Manananggal"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Paintdrips", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(29, 298)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(90, 16)
+        Me.Label1.Size = New System.Drawing.Size(67, 16)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Pumatay :"
         '
@@ -125,25 +126,17 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Paintdrips", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(47, 342)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(72, 16)
+        Me.Label2.Size = New System.Drawing.Size(49, 16)
         Me.Label2.TabIndex = 26
         Me.Label2.Text = "Lynch :"
         '
         'Timer1
         '
-        '
-        'TimeLabelBox
-        '
-        Me.TimeLabelBox.Font = New System.Drawing.Font("Gill Sans MT", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimeLabelBox.Location = New System.Drawing.Point(524, 24)
-        Me.TimeLabelBox.Name = "TimeLabelBox"
-        Me.TimeLabelBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TimeLabelBox.Size = New System.Drawing.Size(100, 23)
-        Me.TimeLabelBox.TabIndex = 27
-        Me.TimeLabelBox.Text = "0"
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
         '
         'KillP4
         '
@@ -228,24 +221,43 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Paintdrips", 10.0!)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(9, 24)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(72, 17)
+        Me.Label3.Size = New System.Drawing.Size(54, 17)
         Me.Label3.TabIndex = 38
         Me.Label3.Text = "Server:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Paintdrips", 10.0!)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(9, 48)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(52, 17)
+        Me.Label4.Size = New System.Drawing.Size(38, 17)
         Me.Label4.TabIndex = 39
         Me.Label4.Text = "Port:"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 72.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(462, 20)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(151, 108)
+        Me.Label5.TabIndex = 40
+        Me.Label5.Text = "15"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(477, 115)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(130, 13)
+        Me.Label6.TabIndex = 41
+        Me.Label6.Text = "SEGUNDONG NATITIRA"
         '
         'Form1
         '
@@ -253,13 +265,14 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(653, 385)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Connect)
         Me.Controls.Add(Me.RoleDesc)
-        Me.Controls.Add(Me.TimeLabelBox)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.LynchP4)
         Me.Controls.Add(Me.LynchP3)
@@ -291,7 +304,6 @@ Partial Class Form1
     Friend WithEvents LynchP4 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents TimeLabelBox As TextBox
     Friend WithEvents KillP4 As Button
     Friend WithEvents KillP3 As Button
     Friend WithEvents KillP2 As Button
@@ -302,4 +314,6 @@ Partial Class Form1
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
 End Class
